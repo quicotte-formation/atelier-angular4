@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { CombopaysComponent } from './combopays/combopays.component';
+import { BoundinputComponent } from './boundinput/boundinput.component';
+import { FilmformComponent } from './filmform/filmform.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CombopaysComponent,
+    BoundinputComponent,
+    FilmformComponent
   ],
   imports: [
     BrowserModule,
